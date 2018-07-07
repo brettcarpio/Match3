@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{15BF6F43-7E5E-3E8F-97AE-27E3544F65DE}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeFiles\7fd5cd5b7580f0c8b851fa1e1d335c06\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Christian/Desktop/WorkTestCpp/WorkTestCpp-master/worktest -BC:/Users/Christian/Desktop/WorkTestCpp/WorkTestCpp-master/worktest --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Christian/Desktop/WorkTestCpp/WorkTestCpp-master/worktest/worktest.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Christian/Desktop/WorkTestCpp/WorkTestCpp-master/worktest/CMakeFiles/7fd5cd5b7580f0c8b851fa1e1d335c06/generate.stamp.rule;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeFiles\3.11.4\CMakeCCompiler.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeFiles\3.11.4\CMakeCXXCompiler.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeFiles\3.11.4\CMakeRCCompiler.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeFiles\3.11.4\CMakeSystem.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeLists.txt;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2-2.0.8\lib\x86\SDL2.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\SDL2_image.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\libjpeg-9.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\libpng16-16.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\libtiff-5.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\libwebp-7.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\zlib1.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_ttf-2.0.14\lib\x86\SDL2_ttf.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_ttf-2.0.14\lib\x86\libfreetype-6.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\scripts\FindSDL2.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\scripts\FindSDL2_image.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\scripts\FindSDL2_ttf.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Christian/Desktop/WorkTestCpp/WorkTestCpp-master/worktest -BC:/Users/Christian/Desktop/WorkTestCpp/WorkTestCpp-master/worktest --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Christian/Desktop/WorkTestCpp/WorkTestCpp-master/worktest/worktest.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Christian/Desktop/WorkTestCpp/WorkTestCpp-master/worktest/CMakeFiles/7fd5cd5b7580f0c8b851fa1e1d335c06/generate.stamp.rule;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeFiles\3.11.4\CMakeCCompiler.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeFiles\3.11.4\CMakeCXXCompiler.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeFiles\3.11.4\CMakeRCCompiler.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeFiles\3.11.4\CMakeSystem.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeLists.txt;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2-2.0.8\lib\x86\SDL2.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\SDL2_image.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\libjpeg-9.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\libpng16-16.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\libtiff-5.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\libwebp-7.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\zlib1.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_ttf-2.0.14\lib\x86\SDL2_ttf.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_ttf-2.0.14\lib\x86\libfreetype-6.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\scripts\FindSDL2.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\scripts\FindSDL2_image.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\scripts\FindSDL2_ttf.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Christian/Desktop/WorkTestCpp/WorkTestCpp-master/worktest -BC:/Users/Christian/Desktop/WorkTestCpp/WorkTestCpp-master/worktest --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Christian/Desktop/WorkTestCpp/WorkTestCpp-master/worktest/worktest.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Christian/Desktop/WorkTestCpp/WorkTestCpp-master/worktest/CMakeFiles/7fd5cd5b7580f0c8b851fa1e1d335c06/generate.stamp.rule;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeFiles\3.11.4\CMakeCCompiler.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeFiles\3.11.4\CMakeCXXCompiler.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeFiles\3.11.4\CMakeRCCompiler.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeFiles\3.11.4\CMakeSystem.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeLists.txt;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2-2.0.8\lib\x86\SDL2.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\SDL2_image.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\libjpeg-9.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\libpng16-16.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\libtiff-5.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\libwebp-7.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\zlib1.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_ttf-2.0.14\lib\x86\SDL2_ttf.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_ttf-2.0.14\lib\x86\libfreetype-6.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\scripts\FindSDL2.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\scripts\FindSDL2_image.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\scripts\FindSDL2_ttf.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Christian/Desktop/WorkTestCpp/WorkTestCpp-master/worktest -BC:/Users/Christian/Desktop/WorkTestCpp/WorkTestCpp-master/worktest --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Christian/Desktop/WorkTestCpp/WorkTestCpp-master/worktest/worktest.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Christian/Desktop/WorkTestCpp/WorkTestCpp-master/worktest/CMakeFiles/7fd5cd5b7580f0c8b851fa1e1d335c06/generate.stamp.rule;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeFiles\3.11.4\CMakeCCompiler.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeFiles\3.11.4\CMakeCXXCompiler.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeFiles\3.11.4\CMakeRCCompiler.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeFiles\3.11.4\CMakeSystem.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeLists.txt;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2-2.0.8\lib\x86\SDL2.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\SDL2_image.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\libjpeg-9.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\libpng16-16.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\libtiff-5.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\libwebp-7.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_image-2.0.3\lib\x86\zlib1.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_ttf-2.0.14\lib\x86\SDL2_ttf.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\win\SDL2_ttf-2.0.14\lib\x86\libfreetype-6.dll;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\scripts\FindSDL2.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\scripts\FindSDL2_image.cmake;C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\scripts\FindSDL2_ttf.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

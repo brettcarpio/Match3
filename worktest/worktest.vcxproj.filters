@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\king\king\Engine.cpp">
+      <Filter>Source\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\king\king\Font.cpp">
+      <Filter>Source\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\king\king\Sprite.cpp">
+      <Filter>Source\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\king\king\TextItem.cpp">
+      <Filter>Source\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\king\king\Window.cpp">
+      <Filter>Source\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\main.cpp">
+      <Filter>Source\worktest</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Position.cpp">
+      <Filter>Source\worktest\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Tile.cpp">
+      <Filter>Source\worktest\Game Board</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Object.cpp">
+      <Filter>Source\worktest\Game Board</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Game.cpp">
+      <Filter>Source\worktest</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\SceneManager.cpp">
+      <Filter>Source\worktest\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\GameScene.cpp">
+      <Filter>Source\worktest\SceneManager\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Gameboard.cpp">
+      <Filter>Source\worktest\Game Board</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\MainMenuScene.cpp">
+      <Filter>Source\worktest\SceneManager\Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\king\king\Engine.h">
+      <Filter>Source\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\king\king\Font.h">
+      <Filter>Source\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\king\king\Sprite.h">
+      <Filter>Source\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\king\king\TextItem.h">
+      <Filter>Source\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\king\king\Updater.h">
+      <Filter>Source\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\external\king\king\Window.h">
+      <Filter>Source\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\Game.h">
+      <Filter>Source\worktest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\Position.h">
+      <Filter>Source\worktest\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\Tile.h">
+      <Filter>Source\worktest\Game Board</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\Object.h">
+      <Filter>Source\worktest\Game Board</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\SceneManager.h">
+      <Filter>Source\worktest\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\Scene.h">
+      <Filter>Source\worktest\SceneManager\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\GameScene.h">
+      <Filter>Source\worktest\SceneManager\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\Gameboard.h">
+      <Filter>Source\worktest\Game Board</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\MainMenuScene.h">
+      <Filter>Source\worktest\SceneManager\Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Christian\Desktop\WorkTestCpp\WorkTestCpp-master\worktest\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{0C94E238-DB86-335E-AE7A-1DF40B72F490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\kinglib">
+      <UniqueIdentifier>{8B2EC85E-184C-3FC6-89E5-7D09B7022D46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\worktest">
+      <UniqueIdentifier>{8CF70C8A-E8A9-3479-9C30-4A4F1A4EBC63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\worktest\Helper">
+      <UniqueIdentifier>{1b96efa0-751f-4c26-bf72-25f20b023f04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\worktest\Game Board">
+      <UniqueIdentifier>{3f5c72ac-edb3-4a3d-87c0-bbe0d608f23e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\worktest\GUI">
+      <UniqueIdentifier>{d05a90a4-e90c-43c1-b849-69a56da99185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\worktest\SceneManager">
+      <UniqueIdentifier>{6868625d-7559-47dc-a62a-2a0dc00c86e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\worktest\SceneManager\Scenes">
+      <UniqueIdentifier>{80b7c4ff-0e7d-46fc-9d22-2ac10e5a4567}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
